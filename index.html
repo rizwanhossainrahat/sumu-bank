@@ -127,6 +127,7 @@
             const withdrawNumber=getInputNumber('withdrawAmount');
             updateSpanText("currentWhithdraw",withdrawNumber);
             updateSpanText('currentBalance',-1*withdrawNumber );
+            document.getElementById('withdrawAmount').value = "";
         })
 
 
